@@ -1,0 +1,25 @@
+From 7cd2a0786a9c2808f91641dc669ec29e65cd556d Mon Sep 17 00:00:00 2001
+From: "Vincent.Curran" <Vincent.Curran@bnpparibas-pf.co.uk>
+Date: Wed, 10 May 2017 12:40:54 +0100
+Subject: [PATCH] client
+
+---
+ TestGiT/TestGiT/App.config | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/TestGiT/TestGiT/App.config b/TestGiT/TestGiT/App.config
+index 88fa402..e7d3d62 100644
+--- a/TestGiT/TestGiT/App.config
++++ b/TestGiT/TestGiT/App.config
+@@ -3,4 +3,7 @@
+     <startup> 
+         <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+     </startup>
++
++  <appsettings>client</appsettings>
++  
+ </configuration>
+\ No newline at end of file
+-- 
+2.10.1.windows.1
+
